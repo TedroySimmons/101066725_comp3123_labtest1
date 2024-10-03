@@ -8,6 +8,7 @@ function lowerCaseWords(arr) {
 
             const filteredArray = arr
             .filter(item => typeof item === 'string')
+            .map(item => item.toLowerCase());
 
         resolve(filteredArray);
         } else {
